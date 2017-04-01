@@ -28,13 +28,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color: #fdfd96;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #fdfd96;
 }
 h1,
 h2,
@@ -53,12 +53,12 @@ h6 {
   background-color: #eeeeee;
 }
 .bg-darkest-gray {
-  background-color: #222222;
+  background-color: red;
 }
 .btn-primary {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #fdfd96;
+  border-color: #fdfd96;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -69,8 +69,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #fdfd96;
+  border-color: #fdfd96;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -92,11 +92,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #fdfd96;
+  border-color: #fdfd96;
 }
 .btn-primary .badge {
-  color: #fed136;
+  color: #fdfd96;
   background-color: white;
 }
 .btn-xl {
@@ -147,11 +147,11 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  background-color: #222222;
+  background-color: transparent;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #fed136;
+  color: white;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
@@ -180,7 +180,7 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: white;
+  color: grey;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
@@ -534,7 +534,7 @@ section h3.section-subheading {
     padding: 0 100px 20px 20px;
   }
 }
-.team-member {
+/*.team-member {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -552,7 +552,7 @@ section h3.section-subheading {
 }
 aside.clients img {
   margin: 50px auto;
-}
+} */
 section#contact {
   background-color: #222222;
   background-image: url('../img/map-image.png');
